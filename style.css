@@ -265,7 +265,17 @@ a[href="servicios.html"]{
         justify-content: center;
         align-items: center;
      }
-  
+     #con-faci{
+        padding: 5px;
+        gap: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+     .contenedor-servicios{
+        display: flex;
+        flex-direction: column;        
+     }
     
 }
 
