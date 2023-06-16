@@ -1,0 +1,517 @@
+
+.contacos1 {
+    display: grid;
+    gap: 5vh;
+    grid-template-areas:
+        "tel emi"
+        "ubi hor";
+}
+
+.ubicacion:hover {
+    background-color: rgb(247, 243, 243);
+}
+
+.telefonos:hover {
+    background-color: rgb(247, 243, 243);
+}
+
+.email:hover {
+    background-color: rgb(247, 243, 243);
+}
+
+.horarios:hover {
+    background-color: rgb(247, 243, 243);
+}
+
+.ubicacion {
+    grid-area: ubi;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3vh;
+}
+
+.telefonos {
+    grid-area: tel;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3vh;
+}
+
+.horarios {
+    grid-area: hor;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3vh;
+}
+
+.email {
+    grid-area: emi;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+.imagenMotivo {
+    width: 500px;
+    border-radius: 20px;
+}
+
+.img {
+    max-height: 300px;
+    object-fit: cover;
+    max-width: 449px;
+    min-width: 449px;
+}
+
+.pimg {
+    color: black;
+
+}
+
+.logodiente {
+    width: 20px;
+}
+
+.logocentro {
+    width: 20vh;
+
+}
+
+.equipo-nosotros {
+    display: flex;
+}
+
+#describcion-equipo {
+    padding: 2vh;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.animate__animated.animate__bounceIn {
+    --animate-duration: 30s;
+}
+
+.tecnología-nosotros {
+    display: flex;
+    align-items: center;
+}
+
+img[alt="tecnologíaDental"] {
+    width: 60vh;
+}
+
+video {
+    width: 100vh;
+    height: 50vh;
+
+}
+
+video:hover {
+    border: solid 2px whitesmoke;
+}
+
+.two {
+    padding: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.nosotros.style1 {
+    -moz-transition: opacity 1s ease;
+    -webkit-transition: opacity 1s ease;
+    -ms-transition: opacity 2s ease;
+    transition: opacity 2s ease;
+    -moz-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1.0;
+    margin: 0;
+}
+a[href="servicios.html"]{
+    color: #39454b;
+    text-decoration:none ;
+}
+@media screen and (max-width: 1920px) {
+    .img {
+        max-height: 320px;
+        object-fit: cover;
+        max-width: 501px;
+        min-width:505px;
+    }
+    #intro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+
+}
+
+@media screen and (max-width: 1680px) {
+    #vidnosotros{
+        width: 100vh;
+     }
+   #divdetwo{
+    padding: 25px;
+   }
+   .img {
+    max-height: 300px;
+    object-fit:cover;
+    max-width: 450px;
+    min-width:449px;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+}
+
+@media screen and (max-width: 1280px) {
+
+    .img {
+        max-height: 230px;
+        object-fit:cover;
+        max-width: 397px; 
+        min-width:389px;
+    }
+   .equipo-nosotros{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+ }
+ #imgclinica{
+    width: 900px;
+ }
+ #vidnosotros{
+    width: 900px;
+ }
+ #intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+}
+
+@media screen and (max-width: 1000px) {
+    .equipo-nosotros{
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+     }
+     #imgclinica{
+        width: 900px;
+     }
+     #vidnosotros{
+        width: 900px;
+     }
+     #intro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+}
+
+@media screen and (max-width: 736px) {
+
+    .img {
+        max-height: 200px;
+        object-fit:cover;
+        max-width: 326px; 
+        min-width:325px;
+    }
+    #header{
+        display: flex;
+    }
+    #header>nav{
+        display: flex;
+    }
+    .equipo-nosotros{
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+     }
+     #imgclinica{
+        width: 600px;
+     }
+     #intro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+  
+     #con-faci{
+        padding: 5px;
+        gap: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+     .contenedor-servicios{
+        display: flex;
+        flex-direction: column;        
+     }
+}
+
+@media screen and (max-width: 480px){
+    .img {
+        max-height: 200px;
+        object-fit:cover;
+        max-width: 326px; 
+        min-width:325px;
+    }
+    .imagenMotivo{
+       width: 50vh;
+    }
+    #header{
+        display: flex;
+    }
+    #header>nav{
+        display: flex;
+    }
+    .equipo-nosotros{
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+     }
+     #imgclinica{
+        width: 400px;
+     }
+     .tecnología-nosotros{
+        display: flex;
+        flex-direction:column;
+     }
+     #imgtecnologia{
+        width: 400px;
+     }
+     #vidnosotros{
+        width: 400px;
+     }
+     #intro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+     #con-faci{
+        padding: 20px;
+        gap: 8px;
+     }
+      .contenedor-imagen{
+       
+        max-height: 300px;
+        object-fit:fill;
+        max-width: 400px; 
+        min-width:200px;
+       
+     } 
+    
+}
+@media screen and (max-width: 320px) {
+    .img {
+        max-height: 190px;
+        object-fit:cover;
+        max-width: 260px; 
+        min-width:275px;
+    }
+     #header{
+         display: flex;
+         flex-wrap: wrap;
+         flex-direction: column; 
+         padding: 6vh;
+     }
+    
+     .contacos1{
+        display: flex;
+        flex-direction: column;
+     }
+     .imagenMotivo{
+        width: 30vh;
+     }
+     .equipo-nosotros{
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+     }
+     #imgclinica{
+        width: 300px;
+     }
+     .tecnología-nosotros{
+        display: flex;
+        flex-direction:column;
+     }
+     #imgtecnologia{
+        width: 300px;
+     }
+     #vidnosotros{
+        width: 300px;
+     }
+     #intro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+     /* .contactosmap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px; */
+    
+} 
+.contactosmap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5vh;
+}
+.contactosmap>div{
+    justify-content: center; 
+    display: flex;
+    align-items: center;
+}
+.mein{
+    border: solid 1px  #98c593; 
+    padding: 0.5em;
+      width: 10px;
+    height: 10px;  
+}
+ /* ------ Politica de Privacidad------ */
+input[type="checkbox"]{
+    width: 100px;
+    height: 2vh;
+}
+/*---no vuelve a mostrar el submit */
+/* input[type="checkbox"]:checked+input[type="submit"] {
+    display: block;
+}
+
+input[type="submit"] {
+    display: none;
+  
+}  */
+ 
+.parrafopolitica{
+    font-size: 10em;
+}
+#aviso{
+    display: flex;
+    justify-content: center;
+}
+#pavisolegal{
+    display: flex;
+    flex-direction: column;
+    padding: 2vh;
+    margin: 2vh;
+    color: white;
+}
+#pavisolegal>h3{
+    color: white;
+}
+.ulconcirculo{
+    list-style-type: square;
+}
+#privawork{
+    background: url("images/overlay.png"), url("/plantilla/images/intro.jpg");
+    background-size: 256px 256px, cover;
+    background-attachment: fixed, fixed;
+    background-position: top left, bottom center;
+    background-repeat: repeat, no-repeat;
+}
+#serwork{
+    background: url("images/overlay.png"), url("/plantilla/images/intro.jpg");
+    background-size: 256px 256px, cover;
+    background-attachment: fixed, fixed;
+    background-position: top left, bottom center;
+    background-repeat: repeat, no-repeat;
+}
+
+.contenedor-imagen {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .contenedor-imagen img {
+    width: 100%;
+    height: auto;
+    display: block;
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  .contenedor-imagen:hover img {
+    opacity: 0.5;
+  }
+  
+  .texto-encima {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #fff;
+    font-size: 24px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .contenedor-imagen:hover .texto-encima {
+    opacity: 1;
+  }
+  
+  .art-servicios{
+    display: flex;
+    flex-direction: column;
+    padding: 5vh;
+    margin: 3vh;
+    gap: 3vh;
+    text-align: justify;
+    align-items: center;
+  }
+  .caja1-servicios{
+    display: flex;
+    flex-direction: row;
+    gap: 3vh;
+    align-items: center;
+    color: #fff;
+  }
+  .one-facilidades{
+    text-align: center;
+  }
+  .con-faci{
+    gap: 20px;
+    display: grid;
+    grid-template-areas: 
+    "f1 f2 "
+    "f3 f4";
+  }
+  #f1{grid-area: f1;}
+  #f2{grid-area: f2;}
+  #f3{grid-area: f3;}
+  #f4{grid-area: f4;}
+
